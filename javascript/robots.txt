@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+allow: / http://www.ssfoundationtrust.com/
+Sitemap: http://www.ssfoundationtrust.com/sitemap.php

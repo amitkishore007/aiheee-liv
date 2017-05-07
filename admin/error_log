@@ -1,0 +1,124 @@
+[14-Jan-2015 14:24:41 Europe/Moscow] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/goldendeerhandic/public_html/admin/informative_add.php:2) in /home/goldendeerhandic/public_html/PhpIncludes/connection_info.php on line 6
+[17-Aug-2015 04:35:26 Etc/GMT] PHP Notice:  Undefined variable: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 04:35:35 Etc/GMT] PHP Notice:  Undefined variable: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 04:35:57 Etc/GMT] PHP Notice:  Undefined variable: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 04:37:47 Etc/GMT] PHP Notice:  Undefined variable: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 04:37:50 Etc/GMT] PHP Notice:  Undefined variable: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 04:37:53 Etc/GMT] PHP Notice:  Undefined variable: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 04:38:19 Etc/GMT] PHP Notice:  Undefined variable: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 07:06:31 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 07:07:00 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 16:24:55 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 16:25:18 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 16:26:07 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 16:27:04 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Aug-2015 16:37:34 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[23-Aug-2015 15:19:18 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[23-Aug-2015 15:35:32 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[23-Aug-2015 16:57:46 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[23-Aug-2015 17:21:37 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[23-Aug-2015 17:27:18 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[25-Aug-2015 17:44:49 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[26-Aug-2015 14:13:40 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[26-Aug-2015 14:18:46 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[26-Aug-2015 14:39:17 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[27-Aug-2015 15:05:22 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[27-Aug-2015 15:45:02 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[28-Aug-2015 10:49:58 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[30-Aug-2015 04:38:56 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[30-Aug-2015 18:29:18 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[01-Sep-2015 14:40:55 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[02-Sep-2015 05:52:10 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[02-Sep-2015 05:52:42 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[02-Sep-2015 05:52:44 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[02-Sep-2015 05:53:02 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[02-Sep-2015 05:53:02 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[02-Sep-2015 13:22:22 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[03-Sep-2015 06:50:44 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[03-Sep-2015 06:53:16 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[03-Sep-2015 08:05:13 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[03-Sep-2015 08:17:03 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[03-Sep-2015 11:24:44 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[03-Sep-2015 13:07:29 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[03-Sep-2015 13:07:33 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[03-Sep-2015 15:44:40 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[05-Sep-2015 09:02:47 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[06-Sep-2015 05:22:24 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[07-Sep-2015 05:17:36 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[07-Sep-2015 05:26:03 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[07-Sep-2015 05:33:05 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[07-Sep-2015 05:34:19 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[07-Sep-2015 05:44:27 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[07-Sep-2015 15:34:49 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[07-Sep-2015 15:49:49 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 09:09:07 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 09:11:06 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 09:27:23 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 09:27:40 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 09:45:33 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 09:45:47 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 10:07:18 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 17:18:09 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[08-Sep-2015 17:51:56 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[10-Sep-2015 07:01:48 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[10-Sep-2015 07:23:19 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[10-Sep-2015 16:24:27 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[11-Sep-2015 16:04:05 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[11-Sep-2015 16:06:36 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[11-Sep-2015 16:07:01 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[11-Sep-2015 17:02:43 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[11-Sep-2015 17:12:01 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[15-Sep-2015 17:52:07 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[15-Sep-2015 18:19:28 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[15-Sep-2015 18:37:27 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[16-Sep-2015 05:11:08 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[16-Sep-2015 05:27:25 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[16-Sep-2015 05:40:26 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[17-Sep-2015 05:55:23 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[19-Sep-2015 11:36:02 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[19-Sep-2015 11:36:21 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[19-Sep-2015 12:16:33 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[19-Sep-2015 14:07:15 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[19-Sep-2015 16:15:00 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[19-Sep-2015 17:09:54 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[20-Sep-2015 05:16:23 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[20-Sep-2015 05:25:35 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[20-Sep-2015 05:35:32 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[20-Sep-2015 05:44:11 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[20-Sep-2015 05:44:28 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[21-Sep-2015 10:15:07 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[21-Sep-2015 10:58:40 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[22-Sep-2015 05:18:45 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[22-Sep-2015 15:44:25 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[22-Sep-2015 15:45:27 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[22-Sep-2015 16:25:22 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[28-Sep-2015 09:08:52 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[01-Oct-2015 12:14:27 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[31-Oct-2015 12:53:30 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[22-Nov-2015 08:12:49 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[13-Dec-2015 05:24:16 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[13-Dec-2015 05:25:41 Etc/GMT] PHP Notice:  Undefined index: username in /home/gracewallpaper/public_html/admin/content_frame.php on line 13
+[31-Mar-2017 13:17:32 UTC] PHP Warning:  session_start(): open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in /home/aiheee/public_html/admin/content_frame.php on line 2
+[31-Mar-2017 13:17:32 UTC] PHP Warning:  Unknown: open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[31-Mar-2017 13:17:32 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[31-Mar-2017 13:17:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiheee/public_html/admin/homepage.php on line 195
+[31-Mar-2017 13:18:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiheee/public_html/admin/homepage.php on line 195
+[01-Apr-2017 06:41:34 UTC] PHP Warning:  session_start(): open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in /home/aiheee/public_html/admin/content_frame.php on line 2
+[01-Apr-2017 06:41:34 UTC] PHP Warning:  Unknown: open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[01-Apr-2017 06:41:34 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[03-Apr-2017 18:34:00 UTC] PHP Warning:  session_start(): open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in /home/aiheee/public_html/admin/content_frame.php on line 2
+[03-Apr-2017 18:34:00 UTC] PHP Warning:  Unknown: open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[03-Apr-2017 18:34:00 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[03-Apr-2017 18:34:12 UTC] PHP Warning:  session_start(): open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in /home/aiheee/public_html/admin/login_check.php on line 3
+[03-Apr-2017 18:34:12 UTC] PHP Warning:  session_start(): open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in /home/aiheee/public_html/admin/content_frame.php on line 2
+[03-Apr-2017 18:34:12 UTC] PHP Warning:  Unknown: open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[03-Apr-2017 18:34:12 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[03-Apr-2017 18:34:36 UTC] PHP Warning:  session_start(): open(/tmp/sess_35e5d364050d7ce6727dfa0b42d88f9d, O_RDWR) failed: Permission denied (13) in /home/aiheee/public_html/admin/hotdeal_edit.php on line 3
+[21-Apr-2017 07:02:02 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/aiheee/public_html/admin/informative_add.php on line 14
+[21-Apr-2017 07:02:02 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/aiheee/public_html/admin/informative_add.php on line 14
+[21-Apr-2017 07:02:02 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/aiheee/public_html/admin/informative_add.php on line 19
+[21-Apr-2017 07:02:02 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/aiheee/public_html/admin/informative_add.php on line 19
+[21-Apr-2017 12:06:45 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/aiheee/public_html/admin/informative_add.php on line 14
+[21-Apr-2017 12:06:45 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/aiheee/public_html/admin/informative_add.php on line 14
+[21-Apr-2017 12:06:45 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/aiheee/public_html/admin/informative_add.php on line 19
+[21-Apr-2017 12:06:45 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/aiheee/public_html/admin/informative_add.php on line 19

@@ -1,0 +1,134 @@
+/* style 4 */
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile + label {
+    color: #009500;
+    margin-top: 50px;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label,
+.inputfile + label:hover {
+    color: #0e7d0e;
+      cursor: pointer;
+}
+
+.inputfile + label figure {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #009500;
+    display: block;
+    padding: 20px;
+    margin: 0px auto; 
+    margin: 0 auto 10px;
+
+}
+
+.inputfile:focus + label figure,
+.inputfile.has-focus + label figure,
+.inputfile + label:hover figure {
+    background-color: #0e7d0e;
+    cursor: pointer;
+}
+
+.inputfile + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    font-weight: normal;
+}
+   .indent-small {
+  margin-left: 5px;
+}
+.form-group.internal {
+  margin-bottom: 0;
+}
+.dialog-panel {
+  margin: 10px;
+}
+.datepicker-dropdown {
+  z-index: 200 !important;
+}
+.panel-body {
+  background: #e5e5e5;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #e5e5e5), color-stop(100%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #e5e5e5 0%, #ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  font: 600 15px "Open Sans", Arial, sans-serif;
+}
+label.control-label {
+  font-weight: 600;
+  color: #777;
+}
+.panel-heading{
+  background-color: #009500;
+}
+.panel-heading{
+  color: #fff;
+}
+.dialog-panel{
+  border: 1px solid #009500;
+}
+.image-div{
+
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  text-align: center;
+  z-index: 999;
+}
+.image-div .profile-img{
+  width: 200px;
+  height: 200px;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+.main-title{
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.progressBar{
+  border: 1px solid green;
+  padding: 2px;
+  display: none;
+}
+.progressBar .bar{
+      height: 5px;
+    width: 100%;
+    background-color: green;
+}
+.progressBar .percent{
+  position: absolute;
+  left: 50%;
+  margin-top: 5px;
+}
+.imgArea{
+       display: none; 
+    position: absolute;
+    top: 27px;
+    left: 15px;
+}
