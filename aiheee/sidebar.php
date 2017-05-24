@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="assets/js/vendor/chosen/chosen.css">
 <link rel="stylesheet" href="assets/js/vendor/summernote/summernote.css">
 <link rel="stylesheet" href="assets/css/main.css">
-
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
 </head>
 <body id="oakleaf" class="main_Wrapper">
 <!-- Application Content -->

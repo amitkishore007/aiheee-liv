@@ -316,7 +316,7 @@ if (!$student) {
 													Course choice
 												</label>
 												<div class="col-sm-4">
-													<input type="text" class="form-control" id="course_choice" value="<?php ?>" readonly />
+													<input type="text" class="form-control" id="course_choice" value="<?php echo $course['exam_content']; ?>" readonly />
 												</div>
 											</div>
 
@@ -373,6 +373,9 @@ if (!$student) {
 <!--/ vendor javascripts --> 
 
 <!-- Custom JavaScripts --> 
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+
 <script src="assets/js/main.js"></script> 
 <!--/ custom javascripts --> 
 </body>

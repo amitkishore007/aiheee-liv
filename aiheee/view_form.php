@@ -44,16 +44,17 @@
 											<th>Coordinatro Id</th>
 											<th>Name</th>
 											
-											<th>Father Name</th>
+											<!-- <th>Father Name</th> -->
 											<th>Address</th>
 											<th>State</th>
 											<th>City</th>
-											<th>District</th>
+											<!-- <th>District</th> -->
 											
 											<th>Zip Code</th>
 											<th>Phone Number</th>
 											<th>Email-Id</th>
-											<th>Date</th>
+											<th>Exam Date</th>
+											
 											<th>Action</th>
 										</tr>
 										<?php
@@ -88,17 +89,17 @@
 										        
 											<td><?php echo $c_id; ?></td>
 						<!--1--> 			<td><?php echo $stu_name; ?></td>
-											<td><?php echo $stu_fathername; ?></td>
+											
 											
 											<td><?php echo $stu_address; ?></td>
 											<td><?php echo $stu_state; ?></td>
 											<td><?php echo $stu_city 	; ?></td>
-											<td><?php echo $stu_district; ?></td>
+											
 											<td><?php echo $stu_zipcode; ?></td>
 											<td><?php echo $stu_phone; ?></td>
 											<td><?php echo $stu_email; ?></td>
 											<td><?php echo date('M j Y',strtotime($sid['created_at'])); ?></td>
-
+											<td><input type="text" class="timepicker" name='time'></td>
 											<td> 
 											
 											<ul class="action-list">
@@ -130,6 +131,7 @@
 
 <script src="assets/bundles/datatablesscripts.bundle.js"></script>
 <!--/ vendor javascripts --> 
+<script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
 
 <!-- Custom JavaScripts --> 
 <script src="assets/js/main.js"></script> 
