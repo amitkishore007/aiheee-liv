@@ -8,36 +8,36 @@ $output = array();
 
 
 
-if (isset($_POST['type'])&& $_POST['type']=='state') {
+// if (isset($_POST['type'])&& $_POST['type']=='state') {
 		
-	$country_id = (int) escape_string($_POST['id']);
+// 	$country_id = (int) escape_string($_POST['id']);
 
-	$query = "SELECT id, name FROM states WHERE country_id = {$country_id} ORDER BY name ASC";
+// 	$query = "SELECT id, name FROM states WHERE country_id = {$country_id} ORDER BY name ASC";
 
-	$result = mysql_query($query);
+// 	$result = mysql_query($query);
 
-	confirm($result);
+// 	confirm($result);
 
-	$output = '';
-	if (mysql_num_rows($result)>0) {
+// 	$output = '';
+// 	if (mysql_num_rows($result)>0) {
 		
-		while ($state  = mysql_fetch_assoc($result)) { 
+// 		while ($state  = mysql_fetch_assoc($result)) { 
 
-		$output .="<option value='".$state['id']."'>".$state['name']."</option>";
+// 		$output .="<option value='".$state['id']."'>".$state['name']."</option>";
 
 		
-		}
+// 		}
 
-	} else {
+// 	} else {
 
-		$output .= "<option>No States found</option>";
-	}
-
-
-	echo $output;
+// 		$output .= "<option>No States found</option>";
+// 	}
 
 
-}
+// 	echo $output;
+
+
+// }
 
 
 if (isset($_POST['type'])&& $_POST['type']=='city') {

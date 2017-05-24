@@ -269,6 +269,22 @@ function timeAgo($time_ago)
 }
 
 
+
+function all_exams() {
+	global $db;
+
+	$query = "SELECT * FROM homepage ORDER BY created_at DESC";
+
+	$result = mysql_query($query);
+
+	confirm($result);
+
+	if (mysql_num_rows($result)>0) {
+		return $result;
+	}
+
+}
+
 function all_countries() {
 	global $db;
 
@@ -282,3 +298,37 @@ function all_countries() {
 		return $result;
 	}
 }
+
+// type = 'danger' or type='success'
+function session_message($type){
+
+		$output ='';
+	if (isset($_SESSION[$type])) {
+		$output .= '<p class="text-center cordinator-error error alert alert-'.$type.'">';
+		$output .= $_SESSION[$type];
+		$output .= "</p>";
+	}
+
+	$_SESSION[$type] = null;
+
+	return $output;
+}
+
+function find_by_id($table, $field, $id) {
+	global $db;
+
+	$query = "SELECT {$field} FROM {$table} WHERE  {$field} = '{$id}' ";
+
+	$result   = mysql_query($query);
+
+	confirm($result);
+
+	if ($user  = mysql_fetch_assoc($result)) {
+		return $user;
+
+	} else {
+	
+		return false;
+	}
+}
+

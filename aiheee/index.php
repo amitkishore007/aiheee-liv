@@ -16,7 +16,7 @@ include_once("check_session.php");
 				<div class="row">
 					
 					<div class="col-sm-6 col-xs-12">
-						<h1 class="font-thin h3 m-0">Welcome <?php $query = mysql_query("select * from my_admin where a_id = '".$_SESSION['a_id']."'");
+						<h1 class="font-thin h3 m-0">Welcome <?php $query = mysql_query("select * from my_admin where a_id = '".$_SESSION['admin_id']."'");
     $rows = mysql_fetch_array($query);
     $mobile_number= $rows['admin_mobile'];
     $admin_id = $rows['admin_id'];

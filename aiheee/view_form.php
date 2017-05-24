@@ -19,12 +19,11 @@
 	<section id="content">
 		<div class="page static-page-tables"> 
 			<!-- bradcome -->
-			<button type="submit" class="btn btn-raised btn-primary"><a href="create-coordinate.php" style="color:white;">Create Coordinator</a> </button>
 			<div class="bg-light lter b-b wrapper-md mb-10">
 				<div class="row">
 					
 					<div class="col-sm-6 col-xs-12">
-						<h1 class="font-thin h3 m-0">Coordinator Users</h1>
+						<h1 class="font-thin h3 m-0 ">Form submitted</h1>
 						
 				</div>
 			</div>
@@ -42,60 +41,73 @@
 								<table class="table table-middle">
 									<thead>
 										<tr>
-											<th>ID</th>
+											<th>Coordinatro Id</th>
 											<th>Name</th>
-											<th>Last Name</th>
+											
 											<th>Father Name</th>
 											<th>Address</th>
 											<th>State</th>
 											<th>City</th>
-											<th>Tehsil</th>
-											<th>Zila</th>
+											<th>District</th>
+											
 											<th>Zip Code</th>
 											<th>Phone Number</th>
 											<th>Email-Id</th>
+											<th>Date</th>
 											<th>Action</th>
 										</tr>
 										<?php
-											$sql="select * from coordinate  group by c_id ";
-											$result=mysql_query($sql);
-											$count=mysql_num_rows($result);
+											$sql    = "SELECT * FROM student ORDER BY created_at DESC";
+											$result = mysql_query($sql);
+											$count  = mysql_num_rows($result);
+
 											if($count>0)
 											{
 												while($sid=mysql_fetch_array($result))
 												{
-													 $c_name 	= $sid['c_name'];
-													 $c_lastname	= $sid['c_lastname'];
-													 $c_fathername 	= $sid['c_fathername'];
-													 $c_address     = $sid['c_address'];
-													 $c_state       = $sid['c_state'];
-													 $c_city 	= $sid['c_city'];
 													
-												         $c_id='AIHEEE/'.$c_state.'/'.$zone.'/'.$id;
-													 $c_tehsil   	= $sid['c_tehsil'];
-													 $c_zila 	= $sid['c_zila'];
-													 $c_zipcode 	= $sid['c_zipcode'];
-													 $c_phone 	= $sid['c_phone'];
-													 $c_email 	= $sid['c_email'];
-													 
+													$stu_name       = $sid['stu_name'];
+													$id             = $sid['stu_id'];
+													$stu_fathername = $sid['stu_fname'];
+													// $zone        = $sid['zone'];
+													$stu_address    = $sid['addr'];
+													$stu_state      = $sid['state'];
+													$stu_city       = $sid['city'];
+													$stu_district   = $sid['dist'];
+													
+													// $c_id        ='AIHEEE/'.$c_state.'/'.$zone.'/'.$id;
+													$c_id           = $sid['coordinator_id'];
+													$stu_zipcode    = $sid['pin'];
+													$stu_phone      = $sid['num'];
+													$stu_email      = $sid['email'];
+													
 											
 											
 										?>
-										<tr>
+										<tr id='row_<?php echo $sid['stu_id']; ?>'>
 										        
 											<td><?php echo $c_id; ?></td>
-						<!--1--> 			        <td><?php echo $c_name; ?></td>
-											<td><?php echo $c_lastname; ?></td>
-											<td><?php echo $c_fathername ; ?></td>
-											<td><?php echo $c_address; ?></td>
-											<td><?php echo $c_state; ?></td>
-											<td><?php echo $c_city 	; ?></td>
-											<td><?php echo $c_tehsil; ?></td>
-											<td><?php echo $c_zila; ?></td>
-											<td><?php echo $c_zipcode; ?></td>
-											<td><?php echo $c_phone; ?></td>
-											<td><?php echo $c_email; ?></td>
-											<td> <a href="view.php" class="btn btn-raised btn-primary">View Candidates</a></td>
+						<!--1--> 			<td><?php echo $stu_name; ?></td>
+											<td><?php echo $stu_fathername; ?></td>
+											
+											<td><?php echo $stu_address; ?></td>
+											<td><?php echo $stu_state; ?></td>
+											<td><?php echo $stu_city 	; ?></td>
+											<td><?php echo $stu_district; ?></td>
+											<td><?php echo $stu_zipcode; ?></td>
+											<td><?php echo $stu_phone; ?></td>
+											<td><?php echo $stu_email; ?></td>
+											<td><?php echo date('M j Y',strtotime($sid['created_at'])); ?></td>
+
+											<td> 
+											
+											<ul class="action-list">
+												<li><a href="student_form.php?sid=<?php echo $sid['stu_id']; ?>" class="btn btn-raised btn-info btn-sm">View</a></li>
+												<li><a href="edit_form.php?sid=<?php echo $sid['stu_id']; ?>" class="btn btn-raised btn-primary btn-sm">Edit</a></li>
+												<!-- <li><a href="javascript:void(0);" class="btn btn-raised btn-danger btn-sm " >Delete</a></li> -->
+											</ul>				
+
+											</td>
 										</tr>
 										<?php }}?>	
 									</tbody>

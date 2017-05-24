@@ -3,9 +3,9 @@ include_once 'dbconnect.php';
 
 //include_once 'check_session.php';
 
-// $_SESSION['otp'] = '1234';
-// $_SESSION['mobileNumber'] = '9876543210';
-// $_SESSION['admin_id'] = '1';
+$_SESSION['otp'] = '1234';
+$_SESSION['mobileNumber'] = '9876543210';
+$_SESSION['admin_id'] = '1';
 
 
 if (isset($_POST['send_otp']))

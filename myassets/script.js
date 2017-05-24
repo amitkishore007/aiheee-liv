@@ -8,9 +8,9 @@ $('document').ready(function(){
 
          $('.error').html('');
          
-         var variable   =   [ "name", "fname", "country", "state", "city", "address", "pincode","email","num","day","month","year","category","last_exam","year_passing","percent_mark","annual_income","citizen","image","declare" ,"stu_dec_fname","stu_dec_name" ,"cource_choice","cordinator_id" ];      
+         var variable   =   [ "name", "fname", "state", "city", "address", "pincode","email","num","day","month","year","category","last_exam","year_passing","percent_mark","annual_income","citizen","image","declare" ,"stu_dec_fname","stu_dec_name" ,"cource_choice","cordinator_id" ];      
          // var variable   =   [ "name", "fname", "country", "state", "city", "address", "pincode","email","num","day","month","year","category","last_exam","year_passing","percent_mark","annual_income","citizen" ];      
-         var totalvar   =   24;
+         var totalvar   =   23;
          var focuscount =   0;
          var count      =   0;
           
@@ -117,33 +117,51 @@ $('document').ready(function(){
 
 
            var form = $(this);
-          
-           $("#submit").attr('disabled', 'disabled');
+
+          $('#tenth-error').html('');
+          $('#twelve-error').html('');
+          $('#cordinator-error').html('');
+          $('#graduation-error').html('');
+        
+           $(".form-submit").attr('disabled', 'disabled');
           
            var post_data = form.serialize();
+           console.log(post_data);
         
             $.ajax({
                 type: 'POST',
                 url: 'user_register.php',
                 data: post_data,
+                beforeSend: function(){
+                  $('.form-submit').html('submitting...');
+                  $('.loader-overlay').fadeIn();
+                },
                 success:function(json){
                     console.log(json);
-                    // var data = JSON.parse(json);
-                    // if (data.type=='success') {
 
-                    //       // $('div#form-loader').fadeOut(500);
-                    //       // Materialize.toast('Message Sent! I will contact you shortly, Thanks', 4000);
-                    //       // $("form#contact-form")[0].reset();
-                    //       // Materialize.updateTextFields();
-                    //       // $("#submit").removeAttr('disabled', 'disabled');
+                    $(".form-submit").removeAttr('disabled');
 
-                    // } else { 
+                    $('.form-submit').html('submit');
+                    
+                    $('.loader-overlay').fadeOut();
+                    
+                    var data = JSON.parse(json);
+                    
+                    if (data.status=='true') {
 
-                    //      // $('div#form-loader').fadeOut(500);
-                    //      // Materialize.toast('Sorry! Something Wrong, Try Again', 4000);
-                    //      // $("#submit").removeAttr('disabled', 'disabled');
+                      console.log('success');
+                         window.location = 'payment.php';
+                         // send otp and ask the user to for validation
+                         // redirect the use to payment page
 
-                    // }
+                    } else { 
+                      console.log('error');
+
+                        $('#tenth-error').html(data.tenth);
+                        $('#twelve-error').html(data.twelve);
+                        $('#cordinator-error').html(data.cordinator);
+                        $('#graduation-error').html(data.graduation);
+                    }
 
                 }
             });
@@ -151,15 +169,15 @@ $('document').ready(function(){
          
       });
 
-   $('#country').change(function(){
-    var id = $(this).val();
-    make_ajax_country(id,'state','state');
-   });
+   // $('#country').change(function(){
+   //  var id = $(this).val();
+   //  make_ajax_country(id,'state','state');
+   // });
 
-   $('#state').change(function(){
-    var id = $(this).val();
-    make_ajax_country(id,'city','city');
-   });
+   // $('#state').change(function(){
+   //  var id = $(this).val();
+   //  make_ajax_country(id,'city','city');
+   // });
 
 
    // ajax image uplaod
@@ -205,6 +223,30 @@ $('#image_upload_form').ajaxForm({
 }).submit();    
 
 });
+
+// dob picker
+      $.dobPicker({
+          daySelector: '#day', /* Required */
+          monthSelector: '#month', /* Required */
+          yearSelector: '#year', /* Required */
+          dayDefault: 'Day', /* Optional */
+          monthDefault: 'Month', /* Optional */
+          yearDefault: 'Year', /* Optional */
+          minimumAge: 12, /* Optional */
+          maximumAge: 80 /* Optional */
+      });
+
+      $.dobPicker({
+        // daySelector: '#day', /* Required */
+        // monthSelector: '#month', /* Required */
+        yearSelector: '#year_passing', /* Required */
+        // dayDefault: 'Day', /* Optional */
+        // monthDefault: 'Month', /* Optional */
+        yearDefault: 'Year of passing', /* Optional */
+        minimumAge: 0, /* Optional */
+        maximumAge: 80 /* Optional */
+      });
+
 });
 
 
@@ -391,11 +433,6 @@ function validationRule() {
               required    :   true
             },
     
-    country : 
-            {
-              required    :   true
-            },
-    
     day : 
             {
               required    :   true
@@ -514,17 +551,13 @@ function validationMessage() {
             
     pincode : 
             {
-              required    :   "Please enter your pincode"
+              required    :   "Please enter your pincode",
+              length      :   "plese enter a 6 digit pincode"
             }, 
             
     address : 
             {
               required    :   "Please enter your address"
-            },
-            
-    country:  
-            {
-              required    :   "Please select country",
             },
     
     day : 
@@ -610,3 +643,9 @@ function validationMessage() {
 }
 
 
+ function validateEmail($email) {
+ 
+  var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+ 
+  return emailReg.test( $email );
+}

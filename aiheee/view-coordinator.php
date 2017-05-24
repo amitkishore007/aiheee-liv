@@ -39,7 +39,7 @@
 						</div>
 						<div class="boxs-body p-0">
 							<div class="table-responsive">
-								<table class="table table-middle">
+								<table class="table table-middle coordinator-table">
 									<thead>
 										<tr>
 											<th>ID</th>
@@ -49,29 +49,31 @@
 											<th>Address</th>
 											<th>State</th>
 											<th>City</th>
-											<th>Tehsil</th>
-											<th>Zila</th>
 											<th>Zip Code</th>
 											<th>Phone Number</th>
 											<th>Email-Id</th>
 											<th>Action</th>
 										</tr>
 										<?php
-											$sql="select * from coordinate ";
+											$sql="SELECT * FROM coordinate ORDER BY created_at DESC";
 											$result=mysql_query($sql);
+
 											$count=mysql_num_rows($result);
 											if($count>0)
 											{
 												while($sid=mysql_fetch_array($result))
 												{
+// print_r($sid);
 													 $c_name 	= $sid['c_name'];
+													 $s_id	= $sid['s_id'];
 													 $c_lastname	= $sid['c_lastname'];
 													 $c_fathername 	= $sid['c_fathername'];
 													 $c_address     = $sid['c_address'];
 													 $c_state       = $sid['c_state'];
 													 $c_city 	= $sid['c_city'];
+													 $zone 	= $sid['zone'];
 													
-												         $c_id='AIHEEE/'.$c_state.'/'.$zone.'/'.$id;
+												         $c_id= $sid['c_id'];
 													 $c_tehsil   	= $sid['c_tehsil'];
 													 $c_zila 	= $sid['c_zila'];
 													 $c_zipcode 	= $sid['c_zipcode'];
@@ -81,7 +83,7 @@
 											
 											
 										?>
-										<tr>
+										<tr id='row_<?php echo $sid['s_id']; ?>'>
 										        
 											<td><?php echo $c_id; ?></td>
 						<!--1--> 			<td><?php echo $c_name; ?></td>
@@ -90,12 +92,17 @@
 											<td><?php echo $c_address; ?></td>
 											<td><?php echo $c_state; ?></td>
 											<td><?php echo $c_city 	; ?></td>
-											<td><?php echo $c_tehsil; ?></td>
-											<td><?php echo $c_zila; ?></td>
+											
 											<td><?php echo $c_zipcode; ?></td>
 											<td><?php echo $c_phone; ?></td>
 											<td><?php echo $c_email; ?></td>
-											<td> <a href="view.php" class="btn btn-raised btn-primary">View Candidates</a></td>
+											<td> 
+											<ul class="action-list">
+												<!-- <li><a href="view.php" class="btn btn-raised btn-primary btn-sm">View</a></li> -->
+												<li><a href="edit_coordinator.php?cid=<?php echo $sid['s_id']; ?>" class="btn btn-raised btn-info btn-sm">Edit</a></li>
+												<li><a href="#" class="btn btn-raised btn-danger btn-sm delete-cordinator" data-cId='<?php echo $sid['s_id']; ?>'>Delete</a></li>
+											</ul>
+											</td>
 										</tr>
 										<?php }}?>	
 									</tbody>

@@ -939,3 +939,48 @@ $(function() {
   $window.on( 'resize', oakleaf.documentOnResize.init );
 
 });
+
+
+$(document).ready(function(){
+
+  $('.delete-cordinator').on('click',function(){
+
+    var cid = $(this).attr('data-cId');
+
+    if (cid=='') {
+
+      alert('could not delete coordinator, try later');
+      return false;
+
+    }
+
+    $.ajax({
+
+      url: 'ajax.php',
+      type: 'POST',
+      data: {'delete':'delete',cid:cid},
+
+      beforeSend: function(){
+        $('.coordinator-table').css({'opacity':'0.4'});
+      },
+      success: function(html){
+        console.log(html);
+        $('.coordinator-table').css({'opacity':'1'});
+        if (html=='success') {
+
+          $('#row_'+cid).fadeOut();
+         
+        } else {
+
+          alert('error occured, try later !');
+        }
+
+      }
+
+    });
+    ///console.log($(this).attr('data-cId'));
+
+    return false;
+
+  });
+})
